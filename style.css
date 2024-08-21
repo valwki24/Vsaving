@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f0f4; /* Blush pink background */
+  color: #2f4f4f; /* Dark Slate Gray text for contrast */
+}
+
+div {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #ffffff; /* White background for form container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #8b5e83; /* Dark blush pink for the heading */
+  text-align: center;
+}
