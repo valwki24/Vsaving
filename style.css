@@ -17,3 +17,30 @@ h1 {
   color: #8b5e83; /* Dark blush pink for the heading */
   text-align: center;
 }
+
+label {
+  font-weight: bold;
+  color: #6b8e23; /* Olive Drab color as a dark light green */
+}
+
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #8b5e83; /* Blush pink border */
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #6b8e23; /* Light green background */
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #556b2f; /* Darker shade of light green on hover */
+}
