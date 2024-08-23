@@ -10,11 +10,39 @@
     <div>
       <h1>Savings Calculator</h1>
       <form>
+        <!-- Income Input -->
         <label for="income">Enter your income:</label><br />
         <input type="number" id="income" name="income" /><br /><br />
 
+        <!-- Expenses Input -->
         <label for="expenses">Enter your expenses:</label><br />
         <input type="number" id="expenses" name="expenses" /><br /><br />
+
+        <!-- Savings Goal Input -->
+        <label for="savings-goal">Enter your savings goal:</label><br />
+        <input
+          type="number"
+          id="savings-goal"
+          name="savings-goal"
+        /><br /><br />
+
+        <!-- Savings Percentage Input -->
+        <label for="savings-percentage">Enter savings percentage:</label><br />
+        <input
+          type="number"
+          id="savings-percentage"
+          name="savings-percentage"
+          min="0"
+          max="100"
+        /><br /><br />
+
+        <!-- Time Period for Savings Input -->
+        <label for="time-period">Select time period for savings:</label><br />
+        <select id="time-period" name="time-period">
+          <option value="6months">6 months</option>
+          <option value="1year">1 year</option>
+          <option value="5years">5 years</option></select
+        ><br /><br />
 
         <input type="submit" value="Calculate Savings" />
       </form>
