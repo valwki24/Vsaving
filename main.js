@@ -13,5 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const savingsPercentage = parseFloat(
       document.getElementById("savings-percentage").value
     );
+
+    // Calculate monthly savings
+    const netIncome = income - expenses;
+    const savings = (netIncome * savingsPercentage) / 100;
   });
 });
