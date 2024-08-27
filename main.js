@@ -14,8 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("savings-percentage").value
     );
 
+    const timePeriod = document.getElementById("time-period").value;
+
     // Calculate monthly savings
     const netIncome = income - expenses;
     const savings = (netIncome * savingsPercentage) / 100;
+
+    // Determine number of months or years based on time period selected
+    let months = 0;
   });
 });
