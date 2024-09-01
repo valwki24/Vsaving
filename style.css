@@ -19,6 +19,23 @@ nav ul {
   justify-content: center;
 }
 
+nav ul li {
+  margin: 0 15px; /* Space between each navbar item */
+}
+
+nav ul li a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #6b8e23;
+}
+
 div {
   margin: 50px auto;
   padding: 20px;
