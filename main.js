@@ -22,5 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Determine number of months or years based on time period selected
     let months = 0;
+    if (timePeriod === "6months") {
+      months = 6;
+    } else if (timePeriod === "1year") {
+      months = 12;
+    } else if (timePeriod === "5years") {
+      months = 60;
+    }
   });
 });
