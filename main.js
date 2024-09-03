@@ -29,5 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (timePeriod === "5years") {
       months = 60;
     }
+
+    // Calculate the total savings over the selected time period
+    const totalSavings = savings * months;
+
+    // Check if savings goal is met
+    const goalMet = totalSavings >= savingsGoal;
   });
 });
