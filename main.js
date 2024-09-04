@@ -35,5 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Check if savings goal is met
     const goalMet = totalSavings >= savingsGoal;
+
+    // Display the result
+    let resultMessage = `You will save $${totalSavings.toFixed(
+      2
+    )} in ${timePeriod}.`;
   });
 });
