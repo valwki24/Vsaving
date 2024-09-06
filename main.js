@@ -40,5 +40,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let resultMessage = `You will save $${totalSavings.toFixed(
       2
     )} in ${timePeriod}.`;
+
+    if (goalMet) {
+      resultMessage += " Congratulations! You will meet your savings goal!";
+    } else {
+      resultMessage +=
+        " You will not meet your savings goal. Consider increasing your savings percentage or extending the time period.";
+    }
   });
 });
