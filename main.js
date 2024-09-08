@@ -47,5 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
       resultMessage +=
         " You will not meet your savings goal. Consider increasing your savings percentage or extending the time period.";
     }
+
+    // Create a result element and display it below the form
+    let resultDiv = document.getElementById("result");
+    if (!resultDiv) {
+      resultDiv = document.createElement("div");
+      resultDiv.id = "result";
+      document.body.appendChild(resultDiv);
+    }
+    resultDiv.innerText = resultMessage;
   });
 });
